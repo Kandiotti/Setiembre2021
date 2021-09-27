@@ -9,7 +9,6 @@ def Enumeracion_Exhaustiva(num):
     else:
         print(f'El {num} no tiene una raiz cuadrada exacta')
 
-
 def Aproximacion(num):
     respuesta = 0
     epsilon = float(
@@ -23,7 +22,6 @@ def Aproximacion(num):
         print(f'{num} no tiene una raiz cuadrada')
     else:
         print(f'La raiz cuadrada de {num} es {respuesta}')
-
 
 def Busqueda_Binaria(num):
     epsilon = float(
